@@ -1,0 +1,42 @@
+/*全てのページに適用する*/
+body{
+		margin:0;
+		background-color:#e6ffe9;
+}
+header{
+		padding:10px 10px;
+		background-color:#ccffcc;
+		border-bottom:5px dashed white;
+		text-align:center;
+}
+main{
+		margin:0 auto;
+		width:70%;
+		background-color:white;
+}
+textarea{
+		width:100%;
+}
+.CLUD_btn{/*追加変更削除ボタンのデザイン*/
+		display:inline-block;
+		padding:0.5em 1em;
+		text-decoration:none;
+		background:#ff9872;
+		color:white;
+		border-bottom:solid 4px #627295;
+		border-radius:3px;
+}
+.CLUD_btn:active{
+		-webkit-transform:translateY(4px);
+		transform:translateY(4px);
+		border-bottom:none;
+}
+.returnHome{/*メモ一覧に戻るボタンのデザイン*/
+		display:inline-block;
+		padding:0.5em 1em;
+		text-decoration:none;
+		background:#668ad8;
+		color:white;
+		border-bottom:solid 4px #627295;
+		border-radius:3px;
+}

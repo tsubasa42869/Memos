@@ -1,0 +1,33 @@
+/*index.phpのCSSファイル*/
+.btn-returnPortfolio{/*ポートフォリオページに戻る*/
+		display:inline-block;
+		padding:0.5em 1em;
+		text-decoration:none;
+		background:#f0e68c;
+		color:grey;
+		border-bottom:solid 4px #627295;
+		border-radius:3px;
+}
+.btn-returnPortfolio:active{
+		-webkit-transform:translateY(4px);
+		transform:translateY(4px);
+		border-bottom:none;
+}
+.listOfMemos{/*メモの表記*/
+		font-size:2.0em;
+		color:#222222;
+		text-decoration:none;
+}
+.pageCount-parents{/*下段のページ表示のデザイン*/
+		text-align:center;
+}
+.pageCount{
+		display:inline-block;
+		padding:0.5em 1em;
+		text-decoration:none;
+		color:grey;
+		border:dashed 1px grey;
+		background:#f2fcff;
+		border-radius:3px;
+		transition:.4s;
+}
